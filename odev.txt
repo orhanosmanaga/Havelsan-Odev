@@ -1,0 +1,29 @@
+1) LVM nedir ? 
+
+C1)LVM disk alanı üzerinde yeniden boyutlandırma yapabilmemize yarar. Örnek LVM ile oluşturulan diskte /home alanımız 50 gb olsun.
+Bu alanı yeni disk ekleyerek veya var olan disk üzerinden ekleme yaparak alanı büyütebiliriz. Aynı zamanda küçültme işlemi de yapabiliriz.
+
+---------------------------------
+
+2)Python ile fibonacci nin ilk 10 değeri
+
+C2)
+
+#!/bin/bash
+def odevFibo(n):
+   if n <= 1:
+       return n
+   else:
+       return(odevFibo(n-1) + odevFibo(n-2))
+adet = 10
+print("Fibonacci :")
+for i in range(adet):
+	print(odevFibo(i))
+
+---------------------------------
+
+3)Kullanıcı bazlı değil, sistem genelinde kalıcı bir çevre değişkeni tanımlanmak istense, hangi sistem dosyası kullanılabilir.
+
+C3)Eklenmesi gereken yer /etc/environment içidir.
+
+
